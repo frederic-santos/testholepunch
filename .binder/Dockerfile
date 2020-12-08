@@ -1,4 +1,4 @@
-FROM rocker/binder:4.0.2
+FROM rocker/binder:3.6.3
 LABEL maintainer='F S'
 USER root
 COPY . ${HOME}
